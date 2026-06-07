@@ -1,8 +1,6 @@
 # EduCourse Admin Dashboard
 
-EduCourse Admin Dashboard adalah template dashboard sistem manajemen operasional belajar-mengajar untuk mengelola pengajar, peserta, kelas, jadwal, ruangan, kehadiran, izin/cuti, materi, dan laporan.
-
-Project ini dibuat sebagai demo portfolio/template untuk kategori **Sistem Manajemen** dengan tampilan admin panel modern, sidebar gelap, topbar putih, kartu statistik, chart, tabel data, dan mock data statis.
+EduCourse Admin Dashboard adalah dashboard sistem manajemen operasional belajar-mengajar untuk mengelola pengajar, peserta, kelas, jadwal, ruangan, kehadiran, izin/cuti, materi, dan laporan.
 
 ## Tech Stack
 
@@ -71,30 +69,3 @@ src/
   index.css
 ```
 
-## Cara Install
-
-```bash
-npm install
-```
-
-## Cara Run
-
-```bash
-npm run dev
-```
-
-## Cara Build
-
-```bash
-npm run build
-```
-
-## Deploy ke Vercel
-
-1. Push project ke repository GitHub.
-2. Buka Vercel dan pilih **Add New Project**.
-3. Import repository project.
-4. Gunakan pengaturan default Vite:
-   - Build Command: `npm run build`
-   - Output Directory: `dist`
-5. Klik **Deploy**.
